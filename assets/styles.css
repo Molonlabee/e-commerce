@@ -392,7 +392,72 @@ header .menu .dropdown .sub-menu a{
 #products-group .product-bg .overlay .product-price{
     font-weight: 600;
 }
-
+/* EXTRA CREDIT */
+/* LOOK BOOK */
+#look-book{
+    /* background: #dddfe4; */
+    background: #bdbdbd;
+    padding: 50px 0 50px 0;
+    overflow: hidden;
+    /* position: relative; */
+}
+#look-book h2{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-arrow, .right-arrow{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.slide-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.slide-box__img{
+    max-width: 300px;
+    z-index: 3;
+}
+.slide-box__img img{
+    width: 100%;
+}
+.slide-box__title{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: end;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    padding: 5px;
+}
+.slide-box__title span{
+    /* color: #dddfe4; */
+    color: #bdbdbd;
+    text-shadow: 0px .1px 0px #dddfe4;
+}
+.pop{
+    border: 2px solid green;
+}
 footer{
     background: #1b1b1b;
     padding: 50px 0;
@@ -522,6 +587,8 @@ footer .social-icons a{
     border-bottom: none;
     padding: 10px 7px;
 }
+
+
 /* TABLET */
 @media (min-width: 768px) and (max-width: 991px) {
     /* body{
